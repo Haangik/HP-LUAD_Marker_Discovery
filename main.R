@@ -12,7 +12,6 @@ if(detectCores()>1){
 }
 
 clusterEvalQ(clu, {
-  setwd("/home/users/mogul012/data/Thesis")
   require(dplyr)
   require(effectsize)
   require(pROC)
