@@ -6,7 +6,7 @@ library(dplyr)
 ##### Multiple core computing system with more than 100 cores is strongly recommended
 ##### It may take very long time if you run these codes with single core.
 if(detectCores()>1){
-  clu <- makePSOCKcluster(detectCores())  
+  clu <- makePSOCKcluster(detectCores())  # You can modify this cluster object(clu) according to your computing environment
 }else{
   clu <- NULL
 }
