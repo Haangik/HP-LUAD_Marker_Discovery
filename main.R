@@ -3,7 +3,7 @@ library(pbapply)
 library(dplyr)
 
 ##### Make a cluster for a parallel computing (optional)
-##### Multiple core computing system with more than 100 cores is strongly required.
+##### Multiple core computing system with more than 100 cores is strongly recommended
 ##### It may take very long time if you run these codes with single core.
 if(detectCores()>1){
   clu <- makePSOCKcluster(detectCores())  
