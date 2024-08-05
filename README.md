@@ -1,2 +1,2 @@
 # LUAD_Marker_Discovery
-Discovering molecular biomarkers for prediction of various clinical conditions of Lung Adenocarcinoma
+Discovering prognostic biomarkers for prediction of Lung Adenocarcinoma patients with EGFR mutations
