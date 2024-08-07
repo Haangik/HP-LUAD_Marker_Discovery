@@ -1,4 +1,10 @@
+clusterExport(clu, "expression.data.list")
+clusterExport(clu, "gene_dictionary")
+clusterExport(clu, "clinical.annotation.list")
+clusterExport(clu, c("na.terms", "dataset.name"))
 
+egfr.datasets<-c('TCGA-LUAD', 'GSE11969', 'GSE13213', 'GSE26939', 'GSE31210', 'GSE72094')
+egfr.dataset.ind<-match(egfr.datasets, dataset.name)
 
 ## Univariate survival analysis across discovery datasets
 ### whole patients (no specific condition)
