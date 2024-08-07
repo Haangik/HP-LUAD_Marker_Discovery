@@ -48,5 +48,5 @@ source("src/Patient_sampling_analysis.R")
 
 
 
-## Module enrichment analysis
+## Module enrichment analysis (Figure 5)
 source("src/Module_enrichment_analysis.R")
