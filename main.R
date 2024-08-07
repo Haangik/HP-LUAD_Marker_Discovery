@@ -45,7 +45,7 @@ source("src/Univariate_survival_analysis.R")
 source("src/Patient_sampling_analysis.R")
 
 ## Risk prediction performance evaluation (Figure 3 and Figure 4)
-
+source("src/Performance_evaluation.R")
 
 
 ## Module enrichment analysis (Figure 5)
