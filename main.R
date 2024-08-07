@@ -44,6 +44,9 @@ source("src/Univariate_survival_analysis.R")
 ### Univariate survival analysis with randomly sampled patients (Figure S1)
 source("src/Patient_sampling_analysis.R")
 
-## Module enrichment analysis
+## Risk prediction performance evaluation (Figure 3 and Figure 4)
 
-## Performance evaluation
+
+
+## Module enrichment analysis
+source("src/Module_enrichment_analysis.R")
