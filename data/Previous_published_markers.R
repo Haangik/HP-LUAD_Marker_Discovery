@@ -1,4 +1,4 @@
-### previous markers
+### Previous markers were manually curated and organized to character vectors
 ## CCP markers, Bueno et al. 2015
 ### KIAA0101 -> PCLAF, ORC6L -> ORC6, CDC2 -> CDK1
 CCP.markers<-c("ASPM", "CDCA8", "MCM10", "FOXM1", "CDC20", "CDKN3", "BIRC5", "DLGAP5", "KIF20A", "BUB1B", "PRC1",
