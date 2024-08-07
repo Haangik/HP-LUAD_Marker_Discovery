@@ -1,6 +1,6 @@
 library(tibble)
 
-gene_dictionary<-readRDS("gene_dictionary.RDS")
+gene_dictionary<-readRDS("data/gene_dictionary.RDS")
 symbol.to.entrez<-function(symbol){
   gene_dictionary$ENTREZID[match(symbol, gene_dictionary$gene_symbol)]
 }
