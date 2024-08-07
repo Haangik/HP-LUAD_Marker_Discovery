@@ -1126,6 +1126,7 @@ gene_symbols<-data.frame(gene_id=NA,
                          ENTREZID=symbols_to_add$ENTREZID)
 
 gene_dictionary<-rbind(gene_info, gene_ids, gene_symbols)
+saveRDS(gene_dictionary, "data/gene_dictionary.RDS")
 
 rm(gene_ids);rm(gene_info);rm(gene_symbols);rm(gene_symbols.entrez);rm(gene_symbols.tcga)
 rm(symbol.dict);rm(symbol.info);rm(symbol.to.id);rm(symbols_to_add)
