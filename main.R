@@ -32,21 +32,13 @@ source("data/Functional_Module_prep.R")
 source("data/Previous_published_markers.R")
 
 ## Univariate survival analysis by patient groups (Figure 2)
-clusterExport(clu, "expression.data.list")
-clusterExport(clu, "gene_dictionary")
-clusterExport(clu, "clinical.annotation.list")
-clusterExport(clu, c("na.terms", "dataset.name"))
-
-egfr.datasets<-c('TCGA-LUAD', 'GSE11969', 'GSE13213', 'GSE26939', 'GSE31210', 'GSE72094')
-egfr.dataset.ind<-match(egfr.datasets, dataset.name)
 source("src/Univariate_survival_analysis.R")
 
 ### Univariate survival analysis with randomly sampled patients (Figure S1)
 source("src/Patient_sampling_analysis.R")
 
-## Risk prediction performance evaluation (Figure 3 and Figure 4)
+## Risk prediction performance evaluation (Figure 3, Figure 4, and Table 2)
 source("src/Performance_evaluation.R")
-
 
 ## Module enrichment analysis (Figure 5)
 source("src/Module_enrichment_analysis.R")
