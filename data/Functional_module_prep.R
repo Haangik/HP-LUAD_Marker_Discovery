@@ -350,8 +350,8 @@ f$mod.len<-pbsapply(f$MOD_ID, FUN=function(k){
   length(f2g[which(f2g$MOD_ID==k),]$Entrez)
 }, cl=clu)
 
-saveRDS(f, "f.RDS")
-saveRDS(f2g, "f2g.RDS")
+saveRDS(f, "data/f.RDS")
+saveRDS(f2g, "data/f2g.RDS")
 
 rm(Annotation);rm(Category);rm(enrichr.list);rm(f.enrichr);rm(f.msigdb)
 rm(f2g.enrichr);rm(f2g.msigdb);rm(file.read);rm(Source)
