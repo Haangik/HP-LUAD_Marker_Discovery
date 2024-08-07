@@ -1,0 +1,52 @@
+Name,Annotation
+ESCAPE,Functional ontology
+Human_Phenotype_Ontology,Phenotype ontology
+OMIM_Disease,Phenotype ontology
+OMIM_Expanded,Phenotype ontology
+Jensen_DISEASES,Phenotype ontology
+dbGaP,Phenotype ontology
+Rare_Diseases_GeneRIF_Gene_Lists,Phenotype ontology
+Disease_Signatures_from_GEO_down_2014,Phenotype ontology
+Disease_Signatures_from_GEO_up_2014,Phenotype ontology
+Disease_Perturbations_from_GEO_up,Phenotype ontology
+Disease_Perturbations_from_GEO_down,Phenotype ontology
+BioPlex_2017,Molecular relation - Protein complex
+CORUM,Molecular relation - Protein complex
+huMAP,Molecular relation - Protein complex
+NURSA_Human_Endogenous_Complexome,Molecular relation - Protein complex
+HumanCyc_2016,Pathway - Metabolic
+WikiPathway_2023_Human,Pathway - Composite
+KEGG_2021_Human,Pathway - Composite
+Reactome_2022,Pathway - Composite
+Panther_2016,Pathway - Composite
+Elsevier_Pathway_Collection,Pathway - Composite
+TRANSFAC_and_JASPAR_PWMs,Molecular Relation - TF
+TRRUST_Transcription_Factors_2019,Molecular Relation - TF
+ENCODE_TF_ChIP-seq_2015,Molecular Relation - TF
+ENCODE_and_ChEA_Consensus_TFs_from_ChIP-X,Molecular Relation - TF 
+ARCHS4_TFs_Coexp,Molecular Relation - TF
+TF-LOF_Expression_from_GEO,Molecular Relation - TF
+TF_Perturbations_Followed_by_Expression,Molecular Relation - TF
+ChEA_2022,Molecular Relation - TF 
+Transcription_Factor_PPIs,Molecular Relation - TF
+Enrichr_Submissions_TF-Gene_Coocurrence,Molecular Relation - TF
+KEA_2015,Molecular Relation - Kinase
+SILAC_Phosphoproteomics,Molecular Relation - Kinase
+ARCHS4_Kinases_Coexp,Molecular Relation - Kinase
+L1000_Kinase_and_GPCR_Perturbations_up,Molecular Relation - Kinase
+L1000_Kinase_and_GPCR_Perturbations_down,Molecular Relation - Kinase
+Kinase_Perturbations_from_GEO_up,Molecular Relation - Kinase
+Kinase_Perturbations_from_GEO_down,Molecular Relation - Kinase
+ARCHS4_IDG_Coexp,Molecular Relation - DrugTarget
+PPI_Hub_Proteins,Molecular Relation - PPI
+Pfam_Domains_2019,Molecular Relation - PPI
+Pfam_InterPro_Domains,Molecular Relation - PPI
+miRTarBase_2017,Molecular Relation - microRNA
+TargetScan_microRNA_2017,Molecular Relation - microRNA
+ENCODE_Histone_Modifications_2015,Molecular Relation - Histone Modification
+Epigenomics_Roadmap_HM_ChIP-seq,Molecular Relation - Histone Modification
+HMDB_Metabolites,Molecular Relation - Metabolite
+Gene_Perturbations_from_GEO_up,Molecular Relation - Genetic
+Gene_Perturbations_from_GEO_down,Molecular Relation - Genetic
+Jensen_COMPARTMENTS,Cellular Co-localization
+SubCell_BarCode,Cellular Co-localization
